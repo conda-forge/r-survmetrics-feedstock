@@ -27,11 +27,15 @@ requirements:
   host:
     - r-base
     - r-mass
+    - r-pec
+    - r-randomforestsrc
     - r-survival
     - r-survminer
   run:
     - r-base
     - r-mass
+    - r-pec
+    - r-randomforestsrc
     - r-survival
     - r-survminer
 
