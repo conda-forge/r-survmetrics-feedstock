@@ -1,11 +1,11 @@
-About r-survmetrics
-===================
+About r-survmetrics-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-survmetrics-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/skyee1/SurvMetrics
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-survmetrics-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of popular evaluation metrics that are commonly used in survival prediction including Concordance Index, Brier Score, Integrated Brier Score, Integrated Square Error, Integrated Absolute Error and Mean Absolute Error. For a detailed information, see (Ishwaran H, Kogalur UB, Blackstone EH and Lauer MS (2008) <doi:10.1214/08-AOAS169>) and (Moradian H, Larocque D and Bellavance F (2017) <doi:10.1007/s10985-016-9372-1>) for different evaluation metrics.
 
