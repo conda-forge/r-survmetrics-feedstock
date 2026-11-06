@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SurvMetrics_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SurvMetrics/SurvMetrics_{{ version }}.tar.gz
-  sha256: d36c937219c90c78c67306753719f65f4de0fd7643cd3bc77af4cf25d4343da8
+  sha256: 862e28180b0f767885b0157a3d379b4f8aa44045f205f50a11eeed8502603a34
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -45,8 +45,8 @@ test:
 about:
   home: https://github.com/skyee1/SurvMetrics
   license: GPL-2.0-or-later
-  summary: An implementation of popular evaluation metrics that are commonly used in survival prediction including Concordance Index, Brier Score, Integrated Brier Score, Integrated Square Error, Integrated Absolute Error and Mean Absolute Error. For a detailed information, see (Ishwaran H, Kogalur UB, Blackstone EH and
-    Lauer MS (2008) <doi:10.1214/08-AOAS169>) and (Moradian H, Larocque D and Bellavance F (2017) <doi:10.1007/s10985-016-9372-1>) for different evaluation metrics.
+  summary: An implementation of popular evaluation metrics that are commonly used in survival prediction including Concordance Index, Brier Score, Integrated Brier Score, Integrated Square Error, Integrated Absolute Error and Mean Absolute Error. For a detailed information, see (Ishwaran H, Kogalur UB, Blackstone EH 
+    and Lauer MS (2008) <doi:10.1214/08-AOAS169>) and (Moradian H, Larocque D and Bellavance F (2017) <doi:10.1007/s10985-016-9372-1>) for different evaluation metrics.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
